@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [goibiboProj]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="com.goibibo.testscripts.HotelSearch">
+        <methods>
+          <include name="LaunchChrome"/>
+          <include name="SearchHotel"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.goibibo.testscripts.HotelSearch -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [goibiboProj] -->
